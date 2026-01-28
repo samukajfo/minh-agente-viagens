@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <title>Minh'agente Viagens</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<!-- HERO -->
+<header class="hero">
+    <div class="overlay">
+        <img src="logo.png" alt="Minh'agente Viagens" class="logo">
+
+        <p class="slogan">
+            Somos uma consultoria em viagens que, há mais de 17 anos, vem realizando sonhos!
+        </p>
+
+        <p class="contato">
+            📱 WhatsApp: (11) 94748-1028 <br>
+            📸 Instagram: @minhagenteviagens
+        </p>
+    </div>
+</header>
+
+<!-- MENU BRANCO -->
+<section class="menu">
+    <div class="card" onclick="mostrar('viagens')">
+        🧳
+        <p>Viagens disponíveis</p>
+    </div>
+
+    <div class="card" onclick="mostrar('agendar')">
+        ✈️
+        <p>Agendar viagem</p>
+    </div>
+
+    <div class="card" onclick="mostrar('seguro')">
+        🔒
+        <p>Seguro viagem</p>
+    </div>
+</section>
+
+<!-- VIAGENS -->
+<section id="viagens" class="conteudo">
+    <h2>Viagens Nacionais</h2>
+    <div class="grid">
+        <div class="viagem">Rio de Janeiro<br>R$ 1.200 / pessoa</div>
+        <div class="viagem">Gramado<br>R$ 1.450 / pessoa</div>
+    </div>
+
+    <h2>Viagens Internacionais</h2>
+    <div class="grid">
+        <div class="viagem">Paris<br>R$ 5.800 / pessoa</div>
+        <div class="viagem">Orlando<br>R$ 6.300 / pessoa</div>
+    </div>
+</section>
+
+<!-- AGENDAR -->
+<section id="agendar" class="conteudo">
+    <h2>Agendar viagem</h2>
+
+    <textarea id="mensagem">Olá, desejo agendar a minha viagem!</textarea>
+
+    <button onclick="copiar()">Copiar mensagem</button>
+    <button onclick="whatsapp()">Copiar e ir para WhatsApp</button>
+</section>
+
+<!-- SEGURO -->
+<section id="seguro" class="conteudo">
+    <h2>Seguro Viagem</h2>
+    <p>
+        O seguro viagem garante assistência médica, suporte em emergências
+        e tranquilidade durante toda a sua experiência.
+    </p>
+
+    <ul>
+        <li>✔ Seguro Nacional</li>
+        <li>✔ Seguro Internacional</li>
+        <li>✔ Cobertura médica e hospitalar</li>
+    </ul>
+</section>
+
+<!-- FOOTER -->
+<footer class="footer">
+    © Minh'agente Viagens — todos os direitos reservados
+</footer>
+
+<script src="script.js"></script>
+</body>
+</html>
