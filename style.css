@@ -1,0 +1,101 @@
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+}
+
+/* HERO */
+.hero {
+    height: 100vh;
+    background:
+        radial-gradient(circle at top left, rgba(160,80,255,0.6), transparent 40%),
+        radial-gradient(circle at bottom right, rgba(255,140,0,0.6), transparent 40%),
+        #061a40;
+    color: white;
+}
+
+.overlay {
+    text-align: center;
+    padding: 60px 20px;
+}
+
+.logo {
+    max-width: 200px;
+    margin-bottom: 20px;
+}
+
+.slogan {
+    font-size: 18px;
+    max-width: 600px;
+    margin: auto;
+}
+
+.contato {
+    margin-top: 20px;
+    font-size: 14px;
+}
+
+/* MENU */
+.menu {
+    background: white;
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    padding: 30px;
+}
+
+.card {
+    border: 1px solid #ddd;
+    padding: 20px;
+    width: 160px;
+    text-align: center;
+    cursor: pointer;
+    border-radius: 6px;
+    font-size: 18px;
+}
+
+.card:hover {
+    background: #f2f2f2;
+}
+
+/* CONTEÚDO */
+.conteudo {
+    display: none;
+    padding: 40px;
+    background: white;
+}
+
+.grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(180px, 1fr));
+    gap: 15px;
+}
+
+.viagem {
+    border: 1px solid #ddd;
+    padding: 15px;
+    border-radius: 6px;
+}
+
+/* AGENDAR */
+textarea {
+    width: 100%;
+    max-width: 500px;
+    height: 80px;
+}
+
+button {
+    margin: 10px 5px;
+    padding: 10px 15px;
+    cursor: pointer;
+}
+
+/* FOOTER */
+.footer {
+    background:
+        radial-gradient(circle at top left, rgba(160,80,255,0.5), transparent 40%),
+        radial-gradient(circle at bottom right, rgba(255,140,0,0.5), transparent 40%),
+        #061a40;
+    color: white;
+    text-align: center;
+    padding: 20px;
+                        }
